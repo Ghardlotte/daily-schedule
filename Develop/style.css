@@ -43,7 +43,7 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: darkgray;
   color: white;
 }
 
@@ -63,7 +63,11 @@ textarea{
 }
 
 .row {
-  background:grey;
+  background:lightgray;
+}
+.row :hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
 }
 
 .saveBtn {
